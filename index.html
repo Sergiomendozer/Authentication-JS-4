@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Login / Sign Up Form</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="./" id="signup">
+        <div class="input">
+        <label for="username" class="input__label">Username</label>
+        <input type="text" id="username" class="input__input">
+        <div class="input__error"></div>
+        </div>
+        <div class="input">
+        <label for="preferredLanguage" class="input__label">Preferred Language</label>
+        <select class="input__input" id="preferredLanguage">
+            <option value="javascript">JavaScript</option>
+            <option value="typescript">TypeScript</option>
+            <option value="go">Go</option>
+            <option value="kotlin">Kotlin</option>
+        </select>
+        <div class="input__error"></div>
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
+    <script src="main.js"></script>
+</body>
